@@ -1,15 +1,16 @@
-# trilha-1
-Este site e para a atividade do curso Descodificadas.
+<h1> trilha-1 </h1>
+<p> Este site e para a atividade do curso Descodificadas.</p>
 
-Os requisitos a serem incluídos são:
-
-Logotipo
-Menu
-Título destacado sobre o assunto do site com imagem do fundo
-Trecho de texto com plano de fundo colorido
-Botão com link interno ou externo
-Imagens com descrições
-Vídeo
-Mapa de localização
-Formulário para coletar cadastro
-Rodapé com a frase criado por seunome
+ <h21> Os requisitos a serem incluídos são: <h2>
+<ul>
+  <li>Logotipo</li>
+  <li>Menu</li>
+  <li>Título destacado sobre o assunto do site com imagem do fundo</li>
+  <li>Trecho de texto com plano de fundo colorido</li>
+  <li>Botão com link interno ou externo</li>
+  <li>Imagens com descrições</li>
+  <li>Vídeo</li>
+  <li>Mapa de localização</li>
+  <li>Formulário para coletar cadastro</li>
+  <li>Rodapé com a frase criado por seunome</li>
+</ul>
