@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo1.png" alt="logo Muriloteca">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home </a></li>
+                <li><a href="#contato">Estante </a></li>
+                <li><a href="#img">Livros </a></li>
+                <li><a href="#video">Video </a></li>
+                <li><a href="#mapa">Maps </a></li>
+                <li><a href="#mapa">Formulario </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Conhecimento ao seu alcance.</h1>
+        </section>
+        <section id="contato">
+            <p><cite>"Buscando aquele ebook que falta na sua estante virtual? <br>Na Muriloteca, você encontra uma
+                    variedade de títulos para todos <br>os gostos e interesses. Desvende novos mundos e aprenda tudo o
+                    que<br> precisa, do conforto da sua casa."</cite></p>
+            <button id="button"><a href="#img">Estante Virtual </a></button>
+        </section>
+        <section id="img">
+            <h2> Estantes de Livros </h2>
+            <figure>
+                <img src="img/html.jpeg" alt="">
+                <figcaption><a href="https://go.hotmart.com/U96130701F?dp=1 " target="_blank">Programação</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/bemestar.jpeg" alt="">
+                <figcaption><a href="https://go.hotmart.com/S96118034S" target="_blank">Bem-Estar</a></figcaption>
+            </figure>
+            <figure>
+                <img src="img/religiao.jpeg" alt="">
+                <figcaption><a href="#">Vivendo uma Vida com Deus</a> </figcaption>
+            </figure>
+        </section>
+        <section id="video">
+            <div id="video-mp">
+                <video width="250" height="400" controls autoplay poster="#" loop>
+                    <source src="img/muryloribeiro.05_20241114_1.mp4">
+                </video>
+            </div>
+        </section>
+        <section id="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.1439729792!2d-46.92496949985739!3d-23.682063527482264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1731612430815!5m2!1spt-BR!2sbr"
+                width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form action="">
+                <h3>Quer deixar sua sugestão de livros ou entrar em contato ?</h3>
+                <div class="label">
+                    <label for="">Nome :</label>
+                    <input type="text" placeholder="Seu nome">
+                </div>
+
+                <div class="label">
+                    <label for=""> Telefone :</label>
+                    <input type="tel" placeholder="(xx)xxxxx-xxxx">
+                </div>
+
+                <div class="label">
+                    <label for="">E-mail :</label>
+                    <input type="email" placeholder="seu@gmail.com">
+                </div>
+
+                <div class="label">
+                    <label for="">Sugestão :</label>
+                    <input type="textarea">
+                </div>
+                <input id="enviar" type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com muito ❤ por Miriã Ribeiro.</p>
+    </footer>
+   
+</body>
+
+</html>

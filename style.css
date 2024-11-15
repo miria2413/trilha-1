@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+header img {
+    flex: 1;
+    height: 60px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+header nav {
+    flex: 2;
+    justify-items: right;
+
+}
+
+header ul {
+    padding: 20px;
+    gap: 35px;
+    display: flex;
+}
+
+header a {
+    cursor: pointer;
+    color: #bea15d;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li:hover {
+    transform: scale(1.3);
+}
+
+section {
+    height: 580px;
+
+}
+
+#home {
+    background-image: url(img/fundo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 25px;
+    color: #bea15d;
+}
+
+#home h1 {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: rgba(250, 235, 215, 0.377);
+}
+
+#contato {
+    background-image: linear-gradient(to left, #f9f295, #e0aa3e, #f9f295, #b88a44);
+    justify-items: center;
+}
+
+#contato p {
+    margin: 40px auto;
+    padding: 120px 120px 0 150px;
+}
+
+#contato cite {
+    font-family: "Borel", cursive;
+    margin-left: 90px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#button {
+    background-color: #000801;
+    /* Cor de fundo */
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    /* Adiciona transição para animação suave */
+}
+
+#button a {
+    color: #b88a44;
+    text-decoration: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button:hover {
+    transform: scale(1.3);
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#img figure {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: auto;
+    margin: 40px;
+    width: 300px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 15px;
+    height: 300px;
+    background-image: linear-gradient(to right, #f9f295, #e0aa3e, #f9f295, #b88a44);
+    opacity: 0.8;
+}
+
+figure:hover, #enviar:hover {
+    transform: scale(1.3);
+}
+
+#img h2 {
+    font-family: "Borel", cursive;
+    margin-left: 90px;
+    font-size: 30px;
+    writing-mode: vertical-lr;
+    margin: 0 40px 0 60px;
+    transform: rotate(180deg);
+}
+
+#img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#img figure figcaption a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Borel", cursive;
+    margin: 10px;
+}
+
+#video {
+    background-color: #000;
+}
+
+#video-mp {
+    text-align: center;
+    padding: 50px;
+}
+
+#mapa {
+    text-align: center;
+    padding: 80px 50px 0;
+    display: flex;
+}
+
+#mapa iframe {
+    border-radius: 15px;
+}
+
+#mapa form {
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+}
+
+form h3, footer {
+    font-family: "Borel", cursive;   
+    font-size: 16px; 
+}
+
+.label {
+    height: 30px;
+    text-align: left;
+}
+
+form label {
+    font-family: "Borel", cursive;
+}
+
+form input {
+    width: 80%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+
+#enviar {
+    width: 90px;
+    height: 20px;
+    margin: 10px 200px;
+    background-color: #000801;
+    color: #bea15d;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+
+footer{
+    background-color:#e0aa3e;
+    height: 100px;
+    text-align: center;
+    padding-top: 48px;
+}
