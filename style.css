@@ -45,7 +45,6 @@ li:hover {
 
 section {
     height: 580px;
-
 }
 
 #home {
@@ -176,7 +175,7 @@ figure:hover, #enviar:hover {
 }
 
 #mapa form {
-    max-height: 300px;
+    max-height: 320px;
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 20px;
@@ -188,22 +187,23 @@ form h3, footer {
 }
 
 .label {
-    height: 30px;
+    height: 25px;
     text-align: left;
 }
 
 form label {
     font-family: "Borel", cursive;
+    font-size: 14px;
 }
 
-form input {
+form input, textarea {
+    font-family: "Borel", cursive;
     width: 80%;
     height: 25px;
     border: 1px solid #ccc;
     border-radius: 15px;
     padding: 0 10px;
 }
-
 
 #enviar {
     width: 90px;
